@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DiscordBotCoockie.Modules
 {
-    public class CtestFile : ModuleBase<SocketCommandContext>
+    public class Game : ModuleBase<SocketCommandContext>
     {
         [Command("game")]
         public async Task PingAsync(SocketGuildUser p)
@@ -19,7 +19,7 @@ namespace DiscordBotCoockie.Modules
             }
             else
             {
-                await ReplyAsync(p.Nickname + "is not playing anything.");
+                await ReplyAsync(p.Nickname + " is not playing anything.");
             }
 
         }
