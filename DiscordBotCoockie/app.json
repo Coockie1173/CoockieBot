@@ -12,7 +12,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/Coockie1173/CoockieBot"
+      "url": "https://github.com/jincod/dotnetcore-buildpack"
     }
   ]
 }
